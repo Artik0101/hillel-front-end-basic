@@ -1,6 +1,8 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+    color: #3D3D3D;
+    font-size: 13px;
 }
 
 .register {
@@ -39,12 +41,64 @@
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-
+    margin-bottom: 15px;
     display: block;
+    color: #727272;
+    text-decoration: none;
+
 }
 
 
 .continue img {
     display: inline-block;
     vertical-align: middle;
+}
+
+.login-register {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.login-register a {
+    text-decoration: none;
+}
+.login {
+    color: #3D3D3D;
+}
+.reg {
+    color: #46A358
+}
+.login-register span{
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.button {
+    background-color: #46A358;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 298px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 36px;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+}
+.register-with{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+.google {
+    width: 20;
+    height: 20;
+    margin-right: 9px;
+}
+.facebook {
+    width: 20;
+    height: 20;
+    margin-right: 4px;
 }

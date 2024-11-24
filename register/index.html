@@ -8,22 +8,34 @@
 </head>
 <body class="body">
     <div class="register">
-
-
+        <div class="login-register">
+            <a href="#" class="login">Login</a><span>|</span><a class = "reg" href="#">Register</a>
+        </div>
+        
         <form action="#">
+            <p>Enter your email and password to register.</p>
             <div class="line">
                 <input class="default-input" type="text" name="Username" placeholder="Username">
             </div>
             <div class="line">
-                <input class="default-input" type="text" name="Username" placeholder="Username">
-            <div>
-            <input type="submit">
+                <input class="default-input" type="email" name="Email" placeholder="Enter your email address">
+            </div>
+            <div class="line">
+                <input class="default-input" type="password" name="Password" placeholder="Password">
+            </div>
+            <div class="line">
+                <input class="default-input" type="password" name="Conf-password" placeholder="Confirm Password">
+            </div>
+            <input type="submit" class="button" value="Register">
         </form>
-
-
+        <p class="register-with">Or register with</p>
         <a class="continue" href="#">
-            <img src="./img/google.svg" alt="">
+            <img src="./img/google_logo.svg" alt="" class="google">
             Continue with Google
+        </a>
+        <a class="continue" href="#" class="facebook">
+            <img src="./img/facebook_logo.svg" alt="">
+            Continue with Facebook
         </a>
     </div>
 </body>
