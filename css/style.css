@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.header{
+    font-size: 0;
+    border-bottom: 0.3px solid #46A35880;
+    margin-top: 30px;
+}
+
+.menu{
+display: inline-block;
+vertical-align: top;
+font-size: 16px;
+margin: 0;
+padding: 0;
+margin-right: 287px;
+margin-left: 229px;
+padding-bottom: 25px;
+margin-top: 8px;
+}
+
+.menu li{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 50px;
+}
+.main-logo{
+    vertical-align: top;
+    display: inline-block;
+}
+.menu a {
+    font-size: 18px;
+    color: #3D3D3D;
+    text-decoration: none;
+    padding-bottom: 23px;
+}
+
+.menu a:hover {
+    /* font-weight: bold; */
+    border-bottom: 3px solid green;
+}
+
+.button-login{
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0px;
+    padding: 0;
+    background-color: #46A358;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.button-login img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.planet{
+    margin-top: 12px;
+    background-color: #F5F5F580;
+}
+.welcome-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 620px;
+    padding-top: 68px;
+    color: #3D3D3D;
+}
+.welcome-text h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 43px;
+}
+.welcome-text h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.welcome-text span{
+    color: #46a358;
+}
+.welcome-text p {
+    margin: 0;
+    margin-left: 43px;
+    margin-top: 5px;
+    color: #727272;
+    font-size: 14px;
+}
+.img-plants{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    margin-left: 55px;
+}
+
+.shop-now {
+    height: 40px;
+    width: 140px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #46A358;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 44px;
+    margin-left: 41px;
+}
