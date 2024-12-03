@@ -52,16 +52,13 @@ float: right;
     margin-left: 12px;
 }
 .categories-list li{
-    display: flex;
-    align-items: center;
     list-style-type: none;
-    height: 40px;
-    
 }
 .categories-list a{
     text-decoration: none;
     font-size: 15px;
     color: #3D3D3D;
+    line-height: 40px;
 }
 .categories-list a:hover{
     color: #46A358;
