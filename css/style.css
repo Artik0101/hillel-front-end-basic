@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'cerapro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/cerapro-regular.woff2);
+}
+@font-face {
+    font-family: 'cerapro';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/cerapro-bold.woff2);
+}
+@font-face {
+    font-family: 'cerapro';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/cerapro-black.woff2);
+}
+@font-face {
+    font-family: 'cerapro';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/cerapro-light.woff2);
+}
+@font-face {
+    font-family: 'cerapro';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/cerapro-medium.woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body{
+    font-family: 'cerapro','Arial', sans-serif;
+    font-weight: 400;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 991px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    border-bottom: #46a358 solid 0.3px;
+}
+.logo img{
+    display: block;
+}
+.menu{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    padding: 0 25px;
+}
+.menu a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.menu a:hover{
+    border-bottom: #46a358 solid 3px;
+}
+.button-menu{
+    display: flex;
+    align-items: center;
+}
+.loupe{
+    margin: 0 15px;
+    height: 20px;
+    width: 20px;
+    background-image: url(/img/loupe_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.basket{
+    margin: 0 15px;
+    height: 24px;
+    width: 24px;
+    background-image: url(/img/basket_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.login{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 17px 7px 17px;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url(../img/logout_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+    background-color: #46a358;
+}
