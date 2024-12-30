@@ -298,6 +298,8 @@
     border-bottom: #46a358 solid 2px;
 }
 .short-filter{
+    display: flex;
+    align-items: top;
     color: #3d3d3d;
     font-size: 15px;
     line-height: 16px;
@@ -305,6 +307,7 @@
     width: 23.5%;
 }
 .short-filter .button{
+    align-self: start;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -409,6 +412,7 @@
     display: flex;
     font-size: 18px;
     line-height: 16px;
+    padding-top: 6px;
 }
 .new-price{
     color: #46a358;
