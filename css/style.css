@@ -101,11 +101,15 @@
     z-index: 1;
 }
 .hover-menu li{
+    transition: 0.3s;
     display: flex;
     align-items: center;
     min-width: 188px;
     min-height: 35px;
     background-color: #EDF6EE;
+}
+.hover-menu li:hover{
+    background-color: #baddbe;
 }
 .hover-menu a{
     width: 100%;
@@ -116,13 +120,31 @@
     color: #3D3D3D;
 }
 
-
+.button-menu-header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    width: 17.5%;
+    transition: 0.3s;
+}
 .button-menu{
     display: flex;
     justify-content: space-between;
     height: 100%;
     align-items: center;
     width: 17.5%;
+    transition: 0.3s;
+    
+}
+.button-menu path{
+    fill: #3D3D3D;
+}
+.button-menu:hover{
+    background-color: #46A358;
+    path{
+        fill: #ffffff;
+    }
 }
 .loupe{
     height: 20px;
@@ -298,6 +320,8 @@
     border-bottom: #46a358 solid 2px;
 }
 .short-filter{
+    display: flex;
+    align-items: top;
     color: #3d3d3d;
     font-size: 15px;
     line-height: 16px;
@@ -305,6 +329,7 @@
     width: 23.5%;
 }
 .short-filter .button{
+    align-self: start;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -409,6 +434,7 @@
     color: #3d3d3d;
 }
 .product-price{
+    padding-top: 6px;
     display: flex;
     font-size: 18px;
     line-height: 16px;
@@ -502,10 +528,23 @@
 
 }
 .blog-post-content{
-    background-color: #FBFBFB;
     display: flex;
     flex-direction: column;
+    background-color: #FBFBFB;
     height: 100%;
+}
+.blog-post-content:hover{
+    img{
+        transform: scale(1.2);
+    }
+}
+.blog-post-img{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.blog-post-img img{
+    transition: 0.3s;
 }
 .find-more-article{
     width: 50%;
@@ -526,7 +565,6 @@
     align-self: flex-end;
     padding-right: 20px;
     width: 53%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -568,10 +606,13 @@
     margin-left: 2px;
 }
 .post-content-text{
+    margin-top: 0;
+    flex-grow: 1;
+    background-color: #FBFBFB;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     padding: 13px 10px;
-    height: 100%;
 }
 .post-content-text .content-date{
     font-weight: 500;
@@ -593,9 +634,10 @@
     line-height: 22px;
     color: #727272;
 }
-.read-more-link{
-    align-self: flex-start;
+.read-link{
     margin-top: auto;
+}
+.read-more-link{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -703,6 +745,7 @@
     line-height: 16px;
 }
 .join-button{
+    cursor: pointer;
     padding: 12px 25px 12px 26px;
     border: 0;
     border-top-right-radius: 6px;
@@ -822,4 +865,10 @@ list-style: none;
     align-items: center;
     justify-content: center;
     height: 50px;
+}
+.button-hover{
+    transition: 0.3s;
+}
+.button-hover:hover{
+    background-color: #2f6d3b;
 }
